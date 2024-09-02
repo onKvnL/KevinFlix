@@ -1,0 +1,70 @@
+body {
+    color: rgb(0, 0, 200);
+    background: rgb(160, 160, 160);
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Saira", sans-serif;   
+    margin-bottom: 10px;
+}
+
+header {
+    font-size: 35px;
+    padding: 10px;
+    color: rgb(0, 0, 60);
+    border-bottom: solid 2px rgb(10, 10, 70);
+    font-family: "Bitter", serif;
+}
+
+.videos {
+    padding: 20px;
+    padding-top: 20px;   
+    background: rgb(200, 200, 200);
+    display: flex;
+    gap: 8px;  
+}
+
+.chamada-texto {
+    margin-left: 1%;
+}
+
+p {
+    font-size: 22px;
+}
+
+img {
+    height: 200px;
+}
+
+.recomendados {
+    padding-left: 50px;
+    background: rgb(200, 200, 200);
+}
+
+.videos-recomendados {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+
+
+
+.recomendados h2 {
+    color: rgb(0, 0, 60) ;
+    padding: 20px;
+}
+
+.videos-recomendados img {
+    opacity: 0.7;
+}
+
+.videos-recomendados img:hover {
+    opacity: 1.0;
+    border: 5px solid red;
+}
+
+.creditos {
+    font-size: 30px;
+    text-align: center;
+}
